@@ -6,7 +6,7 @@
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
     "import/no-unresolved": [
-      1, 
+      2, 
       { "caseSensitive": false }
     ],
     "react/button-has-type": "off",
