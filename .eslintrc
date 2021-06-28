@@ -5,15 +5,14 @@
     "react/prop-types": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
-    },
-   "react/button-has-type": "off",
-   "jsx-a11y/click-events-have-key-events": "off",
-   "jsx-a11y/no-static-element-interactions": "off",
-   "no-nested-ternary": "off",
-   "valid-typeof": "off",
+    "import/no-unresolved": [
+      1, 
+      { "caseSensitive": false }
+    ],
+    "react/button-has-type": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-nested-ternary": "off",
+    "valid-typeof": "off",
   }
 }
