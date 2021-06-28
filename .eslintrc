@@ -1,3 +1,18 @@
 {
-  "extends": ["next", "next/core-web-vitals"]
+  "extends": "airbnb",
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-unresolved": [
+      2, 
+      { "caseSensitive": false }
+   ],
+   "react/button-has-type": "off",
+   "jsx-a11y/click-events-have-key-events": "off",
+   "jsx-a11y/no-static-element-interactions": "off",
+   "no-nested-ternary": "off",
+   "valid-typeof": "off",
+  }
 }
